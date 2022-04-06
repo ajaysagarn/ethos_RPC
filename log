@@ -1,0 +1,431 @@
+1648320378.621047151 [kernel.O] Bootstrapping Ethos...
+1648320378.621050015 [kernel.O] Ethos kernel version: 0.9.11 (Master event loop)
+1648320378.621050916 [kernel.O] Ethos build info:     Feb  8 202211:02:489.3.1 20200408 (Red Hat 9.3.1-2)
+1648320378.621052158 [kernel.O] start_info:     ffffffff804ae000
+1648320378.621052899 [kernel.O]   nr_pages:     102400
+1648320378.621053270 [kernel.O]   shared_inf:   82993000
+1648320378.621053580 [kernel.O]   pt_base:      ffffffff804b1000
+1648320378.621053940 [kernel.O]   mod_start:    0xffffffff8032d000
+1648320378.621054171 [kernel.O]   mod_len:      757760
+1648320378.621054381 [kernel.O]   flags:        0x0
+1648320378.621054592 [kernel.O]   cmd_line:     sd.port=11114
+1648320378.621055293 [kernel.O]   stack:      ffffffff801c9950-ffffffff801cb950
+1648320378.621056183 [kernel.O] sd.port=11114
+1648320378.621056454 [kernel.O] sd.mac=fe:ff:ff:ff:ff:ff
+1648320378.621056684 [kernel.O] sd.ip=10.0.2.15
+1648320378.621056985 [kernel.O] mlt.queueSize=10
+1648320378.621057305 [kernel.O] ipShadowDaemon=169.254.1.1
+1648320378.621057576 [kernel.O] ipNetwork=169.254.1.2
+1648320378.621095049 [kernel.O]   _text:        ffffffff80000000
+1648320378.621096511 [kernel.O]   _etext:       ffffffff8007c000
+1648320378.621097602 [kernel.O]   _edata:       ffffffff8009a012
+1648320378.621098303 [kernel.O]   stack start:  ffffffff801c9950
+1648320378.621099024 [kernel.O]   _end:         ffffffff80310528
+1648320378.621100366 [kernel.O]   First free, but mapped, pfn:   4b8
+1648320378.621101458 [kernel.O]   Fitst unmapped pfn:            800
+1648320378.621102539 [kernel.O]   Total RAM pages:               19000
+1648320378.621104763 [kernel.O]   Total RAM pages used for PTs:  7
+1648320378.621106084 [kernel.O]   KERN_START                     ffffffff80000000
+1648320378.621107196 [kernel.O]   KERN_END                       ffffffffffffffff
+1648320378.621108648 [kernel.O]   Max number of mapped pfns:     0x7ffff
+1648320378.621109209 [kernel.O]   Mappable pages: 0x4b8-0x19000    unmapped pages: 0x19000-0x19000
+1648320378.621109919 [kernel.O] Mapping memory range 0xffffffff80800000 - 0xffffffff99000000
+1648320378.621111382 [kernel.O] walked initially mapped pages
+1648320378.640636702 [kernel.O] mapped rest of pages
+1648320378.640637703 [kernel.O] MM: archPageTablePopulate completed
+1648320378.640637943 [kernel.O] MM: walk all mapped vm
+1648320378.640661587 [kernel.O] MM: walked
+1648320378.640663390 [kernel.O] MM: Initializing xtype from ffffffff8057c000 to ffffffff99000000
+1648320378.640676528 [kernel.O]   handles ... MM: Umapped pages from 0x19000000-0x19000000
+1648320378.640928745 [kernel.O] physicalInfoInit:  maxMappedPfn = 19000     maxPfn = 19000
+1648320378.641257971 [kernel.O] Buffered console enabled.
+1648320378.641300512 [kernel.O] XEN_GRANT_ frames:
+1648320378.641301102 [kernel.O]         MFN = 0xb3f91
+1648320378.641301273 [kernel.O]         MFN = 0xbfc7f
+1648320378.641301383 [kernel.O]         MFN = 0xbfc7e
+1648320378.641301503 [kernel.O]         MFN = 0xbfc7d
+1648320378.641301613 [kernel.O]         MFN = 0xbfc7c
+1648320378.641301723 [kernel.O]         MFN = 0xbfc7b
+1648320378.641301843 [kernel.O]         MFN = 0xbfc7a
+1648320378.641301954 [kernel.O]         MFN = 0xbfc79
+1648320378.641313230 [kernel.O]         Mapping foreign machine frame = 0xb3f91
+1648320378.641314982 [kernel.O]         Mapping foreign machine frame = 0xbfc7f
+1648320378.641316424 [kernel.O]         Mapping foreign machine frame = 0xbfc7e
+1648320378.641317846 [kernel.O]         Mapping foreign machine frame = 0xbfc7d
+1648320378.641319248 [kernel.O]         Mapping foreign machine frame = 0xbfc7c
+1648320378.641320650 [kernel.O]         Mapping foreign machine frame = 0xbfc7b
+1648320378.641322052 [kernel.O]         Mapping foreign machine frame = 0xbfc7a
+1648320378.641323454 [kernel.O]         Mapping foreign machine frame = 0xbfc79
+1648320378.641323785 [kernel.O] xenGrantTable mapped at ffffffff81010000.
+1648320378.641324646 [kernel.O] NR_GRANT_ENTRIES: 4096
+1648320378.641325147 [kernel.O] Initializing events ...
+1648320378.641333959 [kernel.O]  event allocator ...  readyEvents list ...  terminatedKernelEvents list ...  timer list ... done.
+1648320378.641346927 [kernel.O] XenStore channel on 0x804af000, evtchn  0x1
+1648320378.641347448 [kernel.O] ========== Initialize Xen Block Device ===============
+1648320378.642574465 [kernel.O] Block Disk Device: device/vbd/2048
+1648320378.649266398 [kernel.O] Backend ID: 0
+1648320378.650396648 [kernel.O] ====== backend: /local/domain/0/backend/vbd/107/2048
+1648320378.650399141 [kernel.O] Event Channel: 4
+1648320378.650401054 [kernel.O] ---------------Ring initiated.
+1648320378.650402617 [kernel.O] ---------------Ring page shared on grant table.
+1648320378.685442689 [kernel.O] Got InitWait from backend
+1648320378.685442689 [kernel.O]
+1648320378.685443590 [kernel.O] ===== Start transaction
+1648320378.688524963 [kernel.O] ===== Ring ref
+1648320378.689822860 [kernel.O] ===== write event channel
+1648320378.692278105 [kernel.O] ===== write protocol
+1648320378.693749939 [kernel.O] ===== write state
+1648320378.703443611 [kernel.O] ReadWrite
+1648320378.703444002 [kernel.O] ===== About to watch value
+1648320378.718587749 [kernel.O] Sector-size: 512
+1648320378.720911999 [kernel.O] Sectors: 8192
+1648320378.722228203 [kernel.O] Info: 0
+1648320378.722228513 [kernel.O] ===== FS Init finished
+1648320378.722229555 [kernel.O] Initializing network interfaces ...
+1648320378.731345579 [kernel.O]         backend: /local/domain/0/backend/vif/107/0
+1648320379.687176981 [kernel.O]         backend: /local/domain/0/backend/vif/107/1
+1648320379.696334725 [kernel.O]         NET_TX_RING_SIZE: 256
+1648320379.696335676 [kernel.O]         NET_RX_RING_SIZE: 256
+1648320379.696335957 [kernel.O] done.
+1648320379.696336507 [kernel.O]
+1648320379.696336507 [kernel.O] ---------------------------
+1648320379.696336958 [kernel.O] eth0:
+1648320379.696337449 [kernel.O] ---------------------------
+1648320379.696337860 [kernel.O] MAC: aa:00:00:00:00:01
+1648320379.696338891 [kernel.O] Backend: /local/domain/0/backend/vif/107/0
+1648320379.696339382 [kernel.O] Event-Channel: 5
+1648320379.696339382 [kernel.O]
+1648320379.696339852 [kernel.O]
+1648320379.696339852 [kernel.O] ---------------------------
+1648320379.696340152 [kernel.O] eth1:
+1648320379.696340543 [kernel.O] ---------------------------
+1648320379.696340784 [kernel.O] MAC: aa:00:00:00:00:02
+1648320379.696341294 [kernel.O] Backend: /local/domain/0/backend/vif/107/1
+1648320379.696341735 [kernel.O] Event-Channel: 6
+1648320379.696341735 [kernel.O]
+1648320379.696529631 [kernel.O] xenNetGetSrcMac: interface=0 ...shadow daemon remote/local ip address 169.254.1.1/10.0.2.15
+1648320379.696530672 [kernel.O] shadow daemon remote/local udp port: 11114
+1648320379.696543350 [kernel.O] tunnelCreateOutgoing: successfully created tunnel
+1648320379.696544982 [kernel.O]    cryptoKeyType = CryptoKeyNone  tunnelId = 0x0
+1648320379.696547236 [kernel.O]    local    mac = aa:00:00:00:00:01    ip = 169.254.1.1    udp = 11114   isOdd = 0
+1648320379.696549609 [kernel.O]    remote   mac = fe:ff:ff:ff:ff:ff    ip = 10.0.2.15    udp = 11114    nonce = 1
+1648320379.696550481 [kernel.O]    idPublicKey        = 0000000000000000000000000000000000000000000000000000000000000000
+1648320379.696551151 [kernel.O]    local.publicKey    = 0000000000000000000000000000000000000000000000000000000000000000
+1648320379.696551792 [kernel.O]    remote.publicKey   = 0000000000000000000000000000000000000000000000000000000000000000
+1648320379.696552604 [kernel.O]    symmetricKey       = 0000000000000000000000000000000000000000000000000000000000000000
+1648320379.696555998 [kernel.O] shadowdaemonConnectionId = 2
+1648320379.697917505 [kernel.O] received shadowdaemon ping reply, status StatusOk
+1648320379.759501454 [kernel.O] Initializing file system ... fileSystemInit: openDirectoryVector accountsRpc
+1648320379.759502605 [kernel.O] fileSystemInit: openDirectoryVector bore
+1648320379.759503477 [kernel.O] fileSystemInit: openDirectoryVector crisp
+1648320379.759504358 [kernel.O] fileSystemInit: openDirectoryVector crispProxyInternal
+1648320379.759505429 [kernel.O] fileSystemInit: openDirectoryVector crypto
+1648320379.759506491 [kernel.O] fileSystemInit: openDirectoryVector debug
+1648320379.759507563 [kernel.O] fileSystemInit: openDirectoryVector directoryService
+1648320379.759508624 [kernel.O] fileSystemInit: openDirectoryVector disStore
+1648320379.759509946 [kernel.O] fileSystemInit: openDirectoryVector hyper
+1648320379.759510997 [kernel.O] fileSystemInit: openDirectoryVector kernel
+1648320379.759512069 [kernel.O] fileSystemInit: openDirectoryVector minimaltdService
+1648320379.759513130 [kernel.O] fileSystemInit: openDirectoryVector msg
+1648320379.759514182 [kernel.O] fileSystemInit: openDirectoryVector ping
+1648320379.759515033 [kernel.O] fileSystemInit: openDirectoryVector pipe
+1648320379.759516104 [kernel.O] fileSystemInit: openDirectoryVector processStatus
+1648320379.759517246 [kernel.O] fileSystemInit: openDirectoryVector resh
+1648320379.759518298 [kernel.O] fileSystemInit: openDirectoryVector umreceiveClient
+1648320379.759519359 [kernel.O] fileSystemInit: openDirectoryVector umsendClient
+1648320379.759520401 [kernel.O] fileSystemInit: openDirectoryVector umshimClient
+1648320380.243114328 [kernel.O] netFileInit ... netFileInit done ... done.
+1648320380.244077051 [kernel.O] randomInit done
+1648320380.272124295 [kernel.O] minimaltInit: _typeInit ... certificateInit ...ephemeralKeyPairRead ... ipcInit ...authUserInit ... _insert: authUser  localName=Jacob   hostName=server.ethos   success
+1648320380.282251821 [kernel.O] _insert: authUser  localName=ahmed   hostName=server.ethos   success
+1648320380.288852865 [kernel.O] _insert: authUser  localName=bdrolet   hostName=server.ethos   success
+1648320380.291611290 [kernel.O] _insert: authUser  localName=bennett   hostName=server.ethos   success
+1648320380.294166307 [kernel.O] _insert: authUser  localName=gabriele   hostName=server.ethos   success
+1648320380.296822207 [kernel.O] _insert: authUser  localName=janosch   hostName=server.ethos   success
+1648320380.299567543 [kernel.O] _insert: authUser  localName=jlong   hostName=server.ethos   success
+1648320380.302113748 [kernel.O] _insert: authUser  localName=me   hostName=server.ethos   success
+1648320380.304445198 [kernel.O] _insert: authUser  localName=mike   hostName=server.ethos   success
+1648320380.306911099 [kernel.O] _insert: authUser  localName=nobody   hostName=server.ethos   success
+1648320380.309527583 [kernel.O] _insert: authUser  localName=pat   hostName=server.ethos   success
+1648320380.312409692 [kernel.O] _insert: authUser  localName=pollyPlaninsek   hostName=server.ethos   success
+1648320380.315057501 [kernel.O] _insert: authUser  localName=solworth   hostName=server.ethos   success
+1648320380.317770371 [kernel.O] _insert: authUser  localName=thanmayi   hostName=server.ethos   success
+1648320380.320170929 [kernel.O] _insert: authUser  localName=theodorePlaninsek   hostName=server.ethos   success
+1648320380.323142256 [kernel.O] _insert: authUser  localName=wfei   hostName=server.ethos   success
+1648320380.325853383 [kernel.O] _insert: authUser  localName=xuzhang   hostName=server.ethos   success
+1648320380.328345842 [kernel.O] _insert: authUser  localName=yl   hostName=server.ethos   success
+1648320380.329112327 [kernel.O] directoryCacheInit ... userCryptoInit ... done
+1648320380.329122651 [kernel.O] netWorkInit:   initNetworkMinimalt...xenNetGetSrcMac: interface=1 ...done
+1648320380.330599622 [kernel.O] efsInit done
+1648320380.330600393 [kernel.O] before initializing first process
+1648320380.331849852 [kernel.O] archProcessInitStart: right before process init
+1648320380.805289496 [kernel.O] exit()
+1648320381.448037429 [cryptoService.O] starts ...
+1648320381.433706923 [directoryCache.O] starts ...
+1648320381.479855320 [directoryCache.O] initialize: HostName 'server.ethos'    DirectoryServiceHostName 'server.ethos'   HostIpPort '169.254.1.2:11111'
+1648320381.549369655 [directoryCache.O] Ephemeral host certificate initialized ...
+1648320381.570061824 [directoryCache.O] EphemeralHostCertificate
+1648320381.586808350 [directoryCache.O]    Size: 394   Version: 0   ValidFrom: [1648320381.512164000]   ValidTo: [1679856381.512164000]
+1648320381.597621548 [directoryCache.O]    TypeHash:                 9d7d7872...0277dd07
+1648320381.604160634 [directoryCache.O]    SignaturePublicKey:       6fd5b8c1...5f7a3bee
+1648320381.606450366 [directoryCache.O]    Signature:                383dea40...8ae2332b
+1648320381.630419426 [directoryCache.O]    HostRecord:               hostname: server.ethos   ip: 169.254.1.2   port: 11111    padding: 0    protocol: 1
+1648320381.654387235 [directoryCache.O]    LongTermEncryptingPublicKey:   9272068b...834ae078
+1648320381.657751317 [directoryCache.O]    EphemeralKeyAndExpiration[0]:  Expiration=[1648320432.833484000]  PublicKey=c25f0f90...76626c5f
+1648320381.660727010 [directoryCache.O]    EphemeralKeyAndExpiration[1]:  Expiration=[1648320492.833484000]  PublicKey=5c55ee2e...5108c67c
+1648320383.947703031 [directoryCache.O] Starting directoryService... path= /system/programs/directoryService
+1648320384.090752461 [directoryCache.O] asyncLoop: connected to kernel/directoryCache
+1648320384.122592994 [directoryCache.O] permissions for directoryService
+1648320384.137613718 [directoryCache.O]          [C]              ExecutableLabel: *    Group: *
+1648320384.151560291 [directoryCache.O]          [R]              ExecutableLabel: *    Group: *
+1648320384.153924838 [directoryCache.O]          [W]              ExecutableLabel: *    Group: *
+1648320384.160764170 [directoryCache.O]          [X]              ExecutableLabel: *    Group: *
+1648320384.169657859 [directoryCache.O]          [DC]             ExecutableLabel: *    Group: *
+1648320384.181553599 [directoryCache.O]          [DR]             ExecutableLabel: *    Group: *
+1648320384.188713995 [directoryCache.O]          [OutgoingHost]   ExecutableLabel: *    Group: allHosts
+1648320384.207886336 [directoryCache.O]          [OutgoingUser]   ExecutableLabel: *    Group: *
+1648320384.228879063 [directoryCache.O]          [IncomingUser]   ExecutableLabel: *    Group: universal
+1648320384.268445454 [directoryCache.O] asyncLoop: created directoryService group
+1648320384.272618190 [directoryCache.O] asyncLoop: DirectoryServiceHostName=server.ethos  directoryServiceFd=110
+1648320384.275558492 [directoryCache.O] asyncLoop: just before event loop
+1648320384.133677385 [directoryService.O] starts ...
+1648320384.187454703 [directoryService.O] Advertise succeeded
+1648320384.192868166 [directoryService.O] ImportAsync succeeded
+1648320384.274358144 [directoryService.O] woke up from block, len(completed)=1
+1648320380.422202709 [init.O] Hello, world!
+1648320380.455040604 [init.O] Opening /etc/init/services/
+1648320380.567612952 [init.O] Reading /etc/init/services/AccountClient1, pid = 2
+1648320380.599242647 [init.O] Reading /etc/init/services/AccountClient2, pid = 4
+1648320380.602673544 [init.O] Running /programs/AccountClient1
+1648320380.642247665 [init.O] Reading /etc/init/services/AccountService, pid = 5
+1648320380.644999781 [init.O] Reading /etc/init/services/cryptoService, pid = 6
+1648320380.646045281 [init.O] Running /programs/AccountClient2
+1648320380.658262645 [init.O] Reading /etc/init/services/directoryCache, pid = 7
+1648320380.711387846 [init.O] Reading /etc/init/services/pingService, pid = 8
+1648320380.712637125 [init.O] Running /system/programs/cryptoService
+1648320380.713064900 [init.O] Running /programs/AccountService
+1648320380.715657049 [init.O] Running /system/programs/directoryCache
+1648320380.715885693 [init.O] Reading /etc/init/services/reshService, pid = 9
+1648320380.819549332 [init.O] Running /system/programs/pingService
+1648320380.819845221 [init.O] Running /system/programs/reshService
+1648320380.836149411 [init.O] 2022/03/26 18:46:20 STARTING ACCOUNTS CLIENT1....
+1648320381.130104163 [init.O] 2022/03/26 18:46:21 STARTING ACCOUNTS CLIENT2....
+1648320381.466836161 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100001 at /user/nobody/accounts/ with balance 10000
+1648320381.481089778 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100002 at /user/nobody/accounts/ with balance 2345
+1648320381.535947975 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100003 at /user/nobody/accounts/ with balance 500
+1648320381.548339466 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100004 at /user/nobody/accounts/ with balance 55000
+1648320381.567961784 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100005 at /user/nobody/accounts/ with balance 123589
+1648320381.583630763 [init.O] 2022/03/26 18:46:21 [SERVER] Successfully created account 100006 at /user/nobody/accounts/ with balance 66000
+1648320381.606030211 [init.O] 2022/03/26 18:46:21 STARTING ACCOUNTS SERVER....
+1648320381.441660552 [reshService.O] before import
+1648320380.939420661 [AccountsRpcClient.O] [Client1] AccountsRpcClient : beforecall
+1648320381.162659809 [AccountsRpcClient.O] [CLIENT2] AccountsRpcClient : beforecall
+1648320381.727071888 [AccountsRpcClient.O] [CLIENT2] Received transfer success reply from server
+1648320381.778141842 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320381.809000794 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320381.823183614 [AccountsRpcClient.O] [CLIENT2] Received balance reply with balance= 9200
+1648320381.837802047 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320381.851627939 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 9200
+1648320381.860646806 [AccountsRpcClient.O] [CLIENT2] Server was unable to transfer the amount
+1648320381.919139518 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320381.949511372 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320381.954966614 [AccountsRpcClient.O] [CLIENT2]Unable to reterive balance from server
+1648320382.004678567 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.017758087 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 8900
+1648320382.042750887 [AccountsRpcClient.O] [CLIENT2] Server was unable to transfer the amount
+1648320382.078565145 [AccountsRpcClient.O] [Client1] Server was unable to transfer the amount
+1648320382.089698956 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320382.104827257 [AccountsRpcClient.O] [CLIENT2] Received balance reply with balance= 2845
+1648320382.125462629 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.129135057 [AccountsRpcClient.O] [Client1]Unable to reterive balance from server
+1648320382.183231157 [AccountsRpcClient.O] [CLIENT2] Received transfer success reply from server
+1648320382.218558327 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320382.278027030 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320382.283058072 [AccountsRpcClient.O] [CLIENT2] Received balance reply with balance= 96089
+1648320382.296934596 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.307625980 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 96089
+1648320382.363272013 [AccountsRpcClient.O] [CLIENT2] Server was unable to transfer the amount
+1648320382.383220772 [AccountsRpcClient.O] [Client1] Server was unable to transfer the amount
+1648320382.409279802 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320382.428065245 [AccountsRpcClient.O] [CLIENT2]Unable to reterive balance from server
+1648320382.470320761 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.474517442 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 2845
+1648320382.478954764 [AccountsRpcClient.O] [CLIENT2] Server was unable to transfer the amount
+1648320382.554432558 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320382.571360651 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320382.576637031 [AccountsRpcClient.O] [CLIENT2] Received balance reply with balance= 2845
+1648320382.628327537 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.631799813 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 93589
+1648320382.686319791 [AccountsRpcClient.O] [CLIENT2] Received transfer success reply from server
+1648320382.730564160 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320382.770012619 [AccountsRpcClient.O] [CLIENT2] Received balance response from server
+1648320382.773606446 [AccountsRpcClient.O] [CLIENT2]Unable to reterive balance from server
+1648320382.779626538 [AccountsRpcClient.O] [CLIENT2] AccountsRpcClient : done
+1648320382.803910555 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.806298986 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 59700
+1648320382.828667491 [AccountsRpcClient.O] [Client1] Server was unable to transfer the amount
+1648320382.872020982 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.873897728 [AccountsRpcClient.O] [Client1]Unable to reterive balance from server
+1648320382.951574281 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320382.975578695 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320382.984287033 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 11100
+1648320383.015350994 [AccountsRpcClient.O] [Client1] Server was unable to transfer the amount
+1648320383.036914128 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.040021778 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 11100
+1648320383.101073623 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320383.128997301 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.132567926 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 5299
+1648320383.173620880 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320383.203155599 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.206032462 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 80522
+1648320383.265275387 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320383.287760617 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.296707141 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 59675
+1648320383.314817748 [AccountsRpcClient.O] [Client1] Server was unable to transfer the amount
+1648320383.346870823 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.362246572 [AccountsRpcClient.O] [Client1]Unable to reterive balance from server
+1648320383.415946140 [AccountsRpcClient.O] [Client1] Received transfer success reply from server
+1648320383.449483815 [AccountsRpcClient.O] [Client1] Received balance response from server
+1648320383.451361934 [AccountsRpcClient.O] [Client1] Received balance reply with balance= 3205
+1648320383.457811354 [AccountsRpcClient.O] [Client1] AccountsRpcClient : done
+1648320381.664401571 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.677173281 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100001 to account 100003 amount 300
+1648320381.735647998 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.741104692 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100001 to account 100002 amount 500
+1648320381.775789362 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.780627792 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100001
+1648320381.787372119 [AccountsRpcService.O] [SERVER] Balance in account 100001 is 9200
+1648320381.790288347 [AccountsRpcService.O] Calling the client reply with 9200 and StatusOk
+1648320381.797024970 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.801343824 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100001
+1648320381.813865843 [AccountsRpcService.O] [SERVER] Balance in account 100001 is 9200
+1648320381.817268430 [AccountsRpcService.O] Calling the client reply with 9200 and StatusOk
+1648320381.830433586 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.840136692 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100007 to account 100004 amount 5000
+1648320381.854503670 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320381.861941559 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.890069477 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100001 to account 100003 amount 300
+1648320381.916464171 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.921679073 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100007
+1648320381.930109307 [AccountsRpcService.O] [SERVER] Balance in account 100007 is 0
+1648320381.943960766 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320381.946582095 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320381.953456336 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100001
+1648320381.980821344 [AccountsRpcService.O] [SERVER] Balance in account 100001 is 8900
+1648320381.996704038 [AccountsRpcService.O] Calling the client reply with 8900 and StatusOk
+1648320381.999570996 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.007902865 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100002 to account 100003 amount 6000
+1648320382.022930889 [AccountsRpcService.O] [SERVER] Insufficient balance in account 100002, balance: 2845
+1648320382.035548801 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.042463860 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100007 to account 100004 amount 5000
+1648320382.064928702 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.067745349 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.075693600 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100002
+1648320382.083587665 [AccountsRpcService.O] [SERVER] Balance in account 100002 is 2845
+1648320382.086325240 [AccountsRpcService.O] Calling the client reply with 2845 and StatusOk
+1648320382.090893627 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.106694801 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100007
+1648320382.117590274 [AccountsRpcService.O] [SERVER] Balance in account 100007 is 0
+1648320382.119930547 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.127134375 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.150442460 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100005 to account 100004 amount 2500
+1648320382.184402676 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.192505446 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100005 to account 100003 amount 25000
+1648320382.220982979 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.232306758 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100005
+1648320382.256242742 [AccountsRpcService.O] [SERVER] Balance in account 100005 is 96089
+1648320382.258557449 [AccountsRpcService.O] Calling the client reply with 96089 and StatusOk
+1648320382.276167648 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.280489596 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100005
+1648320382.290609952 [AccountsRpcService.O] [SERVER] Balance in account 100005 is 96089
+1648320382.293036938 [AccountsRpcService.O] Calling the client reply with 96089 and StatusOk
+1648320382.296125190 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.309381856 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100007 to account 100002 amount 4400
+1648320382.344916940 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.361186411 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.365795405 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100002 to account 100003 amount 6000
+1648320382.378009816 [AccountsRpcService.O] [SERVER] Insufficient balance in account 100002, balance: 2845
+1648320382.381023192 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.385428087 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100007
+1648320382.389945171 [AccountsRpcService.O] [SERVER] Balance in account 100007 is 0
+1648320382.405551234 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.408270573 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.426642600 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100002
+1648320382.450470010 [AccountsRpcService.O] [SERVER] Balance in account 100002 is 2845
+1648320382.453162141 [AccountsRpcService.O] Calling the client reply with 2845 and StatusOk
+1648320382.456437929 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.463722310 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100008 to account 100001 amount 40
+1648320382.472323066 [AccountsRpcService.O] [SERVER] Account with number 100008 does not exist
+1648320382.488161585 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.511520332 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100005 to account 100004 amount 2500
+1648320382.552167281 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.559354346 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100002
+1648320382.564075108 [AccountsRpcService.O] [SERVER] Balance in account 100002 is 2845
+1648320382.566415151 [AccountsRpcService.O] Calling the client reply with 2845 and StatusOk
+1648320382.573601754 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.588367276 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100005
+1648320382.611206477 [AccountsRpcService.O] [SERVER] Balance in account 100005 is 93589
+1648320382.614243186 [AccountsRpcService.O] Calling the client reply with 93589 and StatusOk
+1648320382.617323917 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.622639265 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100002 to account 100002 amount 30
+1648320382.684109773 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.688555687 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100004 to account 100002 amount 300
+1648320382.728001672 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.735208725 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100008
+1648320382.751227912 [AccountsRpcService.O] [SERVER] Balance in account 100008 is 0
+1648320382.753569346 [AccountsRpcService.O] [SERVER] Account with number 100008 does not exist
+1648320382.759694196 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.764232772 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100004
+1648320382.772040599 [AccountsRpcService.O] [SERVER] Balance in account 100004 is 59700
+1648320382.780568952 [AccountsRpcService.O] Calling the client reply with 59700 and StatusOk
+1648320382.814604083 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.818248151 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100007 to account 100002 amount 4400
+1648320382.824054851 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.832310918 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.856312475 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100007
+1648320382.863943918 [AccountsRpcService.O] [SERVER] Balance in account 100007 is 0
+1648320382.867356549 [AccountsRpcService.O] [SERVER] Account with number 100007 does not exist
+1648320382.890660007 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.919815870 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100003 to account 100006 amount 15000
+1648320382.959040290 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320382.964196990 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100003
+1648320382.969926811 [AccountsRpcService.O] [SERVER] Balance in account 100003 is 11100
+1648320382.972042896 [AccountsRpcService.O] Calling the client reply with 11100 and StatusOk
+1648320382.996448439 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.000355860 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100003 to account 100009 amount 500
+1648320383.010880555 [AccountsRpcService.O] [SERVER] Account with number 100009 does not exist
+1648320383.021961761 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.024319119 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100003
+1648320383.029924834 [AccountsRpcService.O] [SERVER] Balance in account 100003 is 11100
+1648320383.032804851 [AccountsRpcService.O] Calling the client reply with 11100 and StatusOk
+1648320383.046673954 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.073139526 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100001 to account 100005 amount 3601
+1648320383.107367933 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.110644792 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100001
+1648320383.114618226 [AccountsRpcService.O] [SERVER] Balance in account 100001 is 5299
+1648320383.124575301 [AccountsRpcService.O] Calling the client reply with 5299 and StatusOk
+1648320383.138215871 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.143720283 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100006 to account 100001 amount 478
+1648320383.178453131 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.189237507 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100006
+1648320383.194233049 [AccountsRpcService.O] [SERVER] Balance in account 100006 is 80522
+1648320383.197962308 [AccountsRpcService.O] Calling the client reply with 80522 and StatusOk
+1648320383.208880594 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.220328249 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100004 to account 100005 amount 25
+1648320383.272079519 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.276585577 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100004
+1648320383.280139188 [AccountsRpcService.O] [SERVER] Balance in account 100004 is 59675
+1648320383.285483823 [AccountsRpcService.O] Calling the client reply with 59675 and StatusOk
+1648320383.301448162 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.305926923 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100008 to account 100001 amount 40
+1648320383.310728680 [AccountsRpcService.O] [SERVER] Account with number 100008 does not exist
+1648320383.331004803 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.334578572 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100008
+1648320383.339388261 [AccountsRpcService.O] [SERVER] Balance in account 100008 is 0
+1648320383.341854422 [AccountsRpcService.O] [SERVER] Account with number 100008 does not exist
+1648320383.364987753 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.373443653 [AccountsRpcService.O] [SERVER] Accounts server recieved transfer request from account 100002 to account 100002 amount 30
+1648320383.419813864 [AccountsRpcService.O] AccountsRpcService : new connection accepted
+1648320383.435810970 [AccountsRpcService.O] [SERVER] Accounts server recieved balance request for account number: 100002
+1648320383.442844076 [AccountsRpcService.O] [SERVER] Balance in account 100002 is 3205
+1648320383.445506705 [AccountsRpcService.O] Calling the client reply with 3205 and StatusOk

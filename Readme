@@ -1,0 +1,35 @@
+CS 587 Homework 1
+Name: Ajay Sagar Nandimandalam
+UIN: 659867916
+email: anandi6@uic.edu
+
+
+The homework implementation has the following files:
+AccountServer.go - Implementation for a AccountServer that accepts Network request
+AccountClient1.go - Implemtation for a AccountClient that sends requests and accepts server responses
+AccountClient2.go - Implemtation for a AccountClient that sends requests and accepts server responses
+accountsRpc.t - The type file containing ETN for BankAccount type and AccountRpc interface
+log - Copy of the server generated log by running the program.
+
+
+Running the HW:
+1. From the Homework directory run `make clean install`
+2. Navigate into server/ folder `cd server/`
+3. Execute the command `sudo ethosRun -t`
+4. View the logs by executing the command `ethosLog .`
+
+
+Implementation Details:
+
+The implementation consists of a simple AccountRpc interface that has methods to check the balance and transfer an amount from one
+account to another. Two Clients are created to generate predefined balance and transfer requests that get sent to the server using 
+altEthos Ipc and ClientCall() methods. The implementation assumes that both clients have access to all the accounts present in the
+and are able to perform all operations on all accounts.
+
+The server uses a BankAccount type and generate a set of Accounts of type BankAccount when first initialised. These accounts are
+stored in a users accounts folder where each account filename is the account number. These files are then read using the account
+number provided by the clients to perform the requred operations. Error and operations performed are Logged on both the server and
+the client programs.
+
+
+
